@@ -12,12 +12,11 @@ ___
 
 Procedural generation of clouds using a shader.
 
-
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
 
 ![Start Image](images/ProceduralClouds_0.png)
 
-The asset is distributed for free via a GitHub repository, but you can support the author and purchase the asset from the Unity [Asset Store]().
+Find the asset on Unity [Asset Store]().
 
 # About
 

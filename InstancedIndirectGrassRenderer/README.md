@@ -16,7 +16,7 @@ The material from this repository was taken as a basis [UnityURP-MobileDrawMeshI
 
 ![Start Image](images/IIGR_6.png)
 
-The asset is distributed for free via a GitHub repository, but you can support the author and purchase the asset from the Unity [Asset Store]().
+Find the asset on Unity [Asset Store]().
 
 # What's new?
 
