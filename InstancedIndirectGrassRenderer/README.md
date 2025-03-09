@@ -166,9 +166,8 @@ Compatible with the following versions of **Unity**:
 
 Render-pipelines:
 - ![Unity](https://img.shields.io/badge/URP-000.svg)
-- ![Unity](https://img.shields.io/badge/HDRP-000.svg)
 
-> ![Unity](https://img.shields.io/badge/BuildIn-000.svg) not supported!
+> ![Unity](https://img.shields.io/badge/BuildIn-000.svg) ![Unity](https://img.shields.io/badge/HDRP-000.svg) not supported!
 
 # Platform
 
