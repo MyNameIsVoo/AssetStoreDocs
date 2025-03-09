@@ -16,7 +16,32 @@ The material from this repository was taken as a basis [UnityURP-MobileDrawMeshI
 
 ![Start Image](images/IIGR_6.png)
 
-Find the asset on Unity [Asset Store]().
+Find the asset on Unity [Asset Store](https://u3d.as/3uNt).
+
+# Games
+
+___
+
+You can achieve this result using the IIGR asset, screenshots from the game [The Last World](https://store.steampowered.com/app/1927520/The_Last_World/)
+
+![Start Image](images/TLW_0.jpg)
+
+![Start Image](images/TLW_1.png)
+
+![Start Image](images/TLW_2.jpg)
+
+![Start Image](images/TLW_Gif_0.gif)
+
+# Before start
+
+___
+
+> Not supported for Unity 6 or newer!
+
+Before launching, you need to enable Grass Render Feature in the **URP** settings:
+
+- Go to the settings folder and select the current **URP** graphics settings, for example *Assets/Settings/URP-HighFidelity-Renderer.asset*.
+- Click the **Add Render Feature** button and add **Grass Bending RT Pre Pass**
 
 # What's new?
 
@@ -44,13 +69,13 @@ Added many auxiliary elements, such as:
 
 ___
 
-Grass generation works like this: you pass an array of points and IIGR creates grass at those points. The area can be completely filled with grass and in order not to generate all the grass and not fill the computer's memory with unnecessary, unused data, a grass clipping system was introduced. You specify the area in which the grass should be clipped and then bake it.
+Grass generation works like this: you pass an array of points and [IIGR](https://u3d.as/3uNt) creates grass at those points. The area can be completely filled with grass and in order not to generate all the grass and not fill the computer's memory with unnecessary, unused data, a grass clipping system was introduced. You specify the area in which the grass should be clipped and then bake it.
 
 ![Start Image](images/IIGR_Gif_0.gif)
 
 > Make sure your herb is generated before baking!
 
-Baking works in multi-threaded mode. Also, during baking, the main IIGR functions will be unavailable. You can interrupt baking by simply turning the IIGR component off and on. However, this is not recommended!
+Baking works in multi-threaded mode. Also, during baking, the main [IIGR](https://u3d.as/3uNt) functions will be unavailable. You can interrupt baking by simply turning the [IIGR](https://u3d.as/3uNt) component off and on. However, this is not recommended!
 
 ## Terrain support
 
@@ -58,7 +83,7 @@ ___
 
 ![Start Image](images/IIGR_Gif_1.gif)
 
-IIGR supports standard Terrain Unity. Just attach the TerrainGrass component to it and press the Preview button and watch the result. To increase the density of grass, you need to increase the resolution of the terrain in its settings. The default resolution is 1025x1025. At a lower resolution, artifacts in the form of blinking grass may appear.
+[IIGR](https://u3d.as/3uNt) supports standard Terrain Unity. Just attach the TerrainGrass component to it and press the Preview button and watch the result. To increase the density of grass, you need to increase the resolution of the terrain in its settings. The default resolution is 1025x1025. At a lower resolution, artifacts in the form of blinking grass may appear.
 
 ![Start Image](images/IIGR_5.png)
 
@@ -68,7 +93,7 @@ ___
 
 ![Start Image](images/IIGR_7.png)
 
-In URP, shadows are controlled in the render settings. The **Cascade Count** parameter is responsible for this. Unfortunately, at higher values ??of this parameter, shadows from objects disappear. Keep this in mind!
+In URP, shadows are controlled in the render settings. The **Cascade Count** parameter is responsible for this. Unfortunately, at higher values of this parameter, shadows from objects disappear. Keep this in mind!
 
 ![Start Image](images/IIGR_Gif_3.gif)
 
@@ -78,7 +103,7 @@ ___
 
 Most operations are performed in multi-threaded mode. This is done to optimize and speed up data generation.
 
-> ?It is not recommended to perform time-consuming operations in real time or in the Update method!
+> It is not recommended to perform time-consuming operations in real time or in the Update method!
 
 A good practice is to first generate the grass area, then bake it and then save it to file.
 
@@ -92,8 +117,37 @@ Saving and loading data is done from a *.dat file. The binary format was chosen 
 
 ![Start Image](images/IIGR_Gif_2.gif)
 
-Generating 10 million blades of grass takes about 5 seconds
-Cutting three objects with 10 million blades of grass takes about 5 seconds
+Generating 10 million blades of grass takes less than 5 seconds
+Cutting three objects with 10 million blades of grass takes less than 5 seconds
+
+## How do I add my details?
+
+___
+
+To add your grass data you need to pass an array of positions and heights to **InstancedIndirectGrassRenderer**:
+
+```csharp
+/// <summary>
+/// Add data to grass render
+/// </summary>
+/// <param name="grassData">Custom data. Massives with Positions and Heights</param>
+/// <param name="clearData">If true the inner grass data will be cleared</param>
+public void AddRange(GrassData grassData, bool clearData = false) { ... }
+```
+
+After you add the data the grass will be recalculated and displayed on the screen.
+
+To start baking grass you need to call the method
+
+```csharp
+internal IEnumerator BakeCullingAsync(Action callback) { ... }
+```
+
+Example call:
+
+```csharp
+StartCoroutine(InstancedIndirectGrassRenderer.Instance.BakeCullingAsync(OnBakingFinish));
+```
 
 ## Dependencies
 
@@ -138,6 +192,33 @@ ___
 If you find a bug or have any suggestions for improvement, please let us know: choco.16mail@mail.ru
 
 ![Start Image](images/IIGR_0.png)
+
+# Refund policy
+
+If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.
+
+This policy attempts to clarify the [asset store EULA‘s](https://unity.com/pt/legal/as-terms) legal jargon and specifies the practical cases that it does, or does not cover. It does not add refund conditions that aren’t already covered by it.
+
+All Asset Store sales **are final** as per the EULA section 2.2.9, which is agreed upon at checkout. Digital purchases cannot be returned once downloaded, hence it’s required to agree to waive the right to a refund. Clicking the “Download” button finalizes this agreement.
+
+This is because it is impossible to ensure the package files are deleted after a refund is issued. Keeping both the package and its monetary value is not a fair trade. Therefore, some conditions must be met in order to avoid abuse or supporting impulsive purchases:
+**Conditions that justify a refund:**
+- You have not yet downloaded the asset (verified through invoice number).
+- Accidental purchase, or on wrong account (only valid if not yet downloaded).
+- The asset was removed from the store within 4 weeks of purchasing.
+- The asset fails to work as advertised, or there is a vital incompatibility with existing systems (within the confines of the supported platforms, capabilities, and versions). And cannot be resolved in a future update or a hotfix.
+
+**Requests are declined if:**
+- The invoice date exceeds 14 days prior to the request.
+- You appear to not have read, misread or misunderstood the store page description (“as advertised”), or otherwise failed to inform yourself through the linked online documentation. This includes details such as:
+- Minimum/maximum compatible or supported Unity versions
+- Compatible or supported platforms
+- Scriptable Render Pipeline compatibility (including the built-in RP)
+- Listed features and limitations
+- The asset is claimed to no longer be used.
+- The package in question went on sale, or an upgrade discount was introduced, shortly after a full-price purchase was made.
+
+If you find you are in accordance with these conditions, please get in touch on the basis of your request.
 
 # References
 
