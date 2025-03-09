@@ -16,13 +16,13 @@ Procedural generation of clouds using a shader.
 
 ![Start Image](images/ProceduralClouds_0.png)
 
-Find the asset on Unity [Asset Store]().
+Find the asset on Unity [Asset Store](https://u3d.as/3uQX).
 
 # About
 
 ___
 
-The asset is built using Visual Shader Graph.
+The asset is built using Visual Shader Graph with URP.
 
 ![Start Image](images/ProceduralClouds_4.png)
 
@@ -58,6 +58,7 @@ What you can achieve using Procedural Clouds.
 ___
 
 - Visual Shader Graph
+- URP
 
 # Compatibility
 
@@ -70,9 +71,8 @@ Compatible with the following versions of **Unity**:
 
 Render-pipelines:
 - ![Unity](https://img.shields.io/badge/URP-000.svg)
-- ![Unity](https://img.shields.io/badge/HDRP-000.svg)
 
-> ![Unity](https://img.shields.io/badge/BuildIn-000.svg) not supported!
+> ![Unity](https://img.shields.io/badge/BuildIn-000.svg) ![Unity](https://img.shields.io/badge/HDRP-000.svg) not supported!
 
 # Platform
 
@@ -94,6 +94,33 @@ My other [ASSETS](https://assetstore.unity.com/publishers/18484)
 ___
 
 If you find a bug or have any suggestions for improvement, please let us know: choco.16mail@mail.ru
+
+# Refund policy
+
+If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.
+
+This policy attempts to clarify the [asset store EULA‘s](https://unity.com/pt/legal/as-terms) legal jargon and specifies the practical cases that it does, or does not cover. It does not add refund conditions that aren’t already covered by it.
+
+All Asset Store sales **are final** as per the EULA section 2.2.9, which is agreed upon at checkout. Digital purchases cannot be returned once downloaded, hence it’s required to agree to waive the right to a refund. Clicking the “Download” button finalizes this agreement.
+
+This is because it is impossible to ensure the package files are deleted after a refund is issued. Keeping both the package and its monetary value is not a fair trade. Therefore, some conditions must be met in order to avoid abuse or supporting impulsive purchases:
+**Conditions that justify a refund:**
+- You have not yet downloaded the asset (verified through invoice number).
+- Accidental purchase, or on wrong account (only valid if not yet downloaded).
+- The asset was removed from the store within 4 weeks of purchasing.
+- The asset fails to work as advertised, or there is a vital incompatibility with existing systems (within the confines of the supported platforms, capabilities, and versions). And cannot be resolved in a future update or a hotfix.
+
+**Requests are declined if:**
+- The invoice date exceeds 14 days prior to the request.
+- You appear to not have read, misread or misunderstood the store page description (“as advertised”), or otherwise failed to inform yourself through the linked online documentation. This includes details such as:
+- Minimum/maximum compatible or supported Unity versions
+- Compatible or supported platforms
+- Scriptable Render Pipeline compatibility (including the built-in RP)
+- Listed features and limitations
+- The asset is claimed to no longer be used.
+- The package in question went on sale, or an upgrade discount was introduced, shortly after a full-price purchase was made.
+
+If you find you are in accordance with these conditions, please get in touch on the basis of your request.
 
 # References
 
