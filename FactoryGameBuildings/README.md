@@ -37,6 +37,8 @@ Themes of the buildings: future, production, factory, alien technologies, sci-fi
 - 4 textures of two sizes (512x512 and 2048x2048)
 - Normal Map, AlbedoTransparency, Emission, MetallicSmoothness
 - Ready for animations and game
+- Icons
+- Top view icons
 
 ![Start Image](images/Building_000.jpg)
 
@@ -85,7 +87,7 @@ Themes of the buildings: future, production, factory, alien technologies, sci-fi
 ![Start Image](images/Building_022.jpg)
 
 > This asset contains only models, textures and materials. You can purchase an extended edition of this asset, see details here: Asset
-> Textures of size 2048x2048 need to be downloaded separately due to their large size. The download link can be found in the Readme.md file
+> Textures of size 2048x2048 need to be downloaded separately due to their large size. The download link can be found in the **Readme** file
 > The screenshots showing this asset show what you can achieve. All the screenshots showing were taken on URP
 
 ![Start Image](images/Buildings_Gif_05.gif)
