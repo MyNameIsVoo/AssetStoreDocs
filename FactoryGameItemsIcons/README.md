@@ -80,15 +80,15 @@ Themes of the items: future, production, factory, alien technologies, sci-fi, sc
 > Textures of size 1024x1024 need to be downloaded separately due to their large size. The download link can be found in the **Readme** file
 > The screenshots showing this asset show what you can achieve. All the screenshots showing were taken on URP
 
-![Start Image](Items_Gif_000.gif)
+![Start Image](images/Items_Gif_000.gif)
 
-![Start Image](Items_Gif_001.gif)
+![Start Image](images/Items_Gif_001.gif)
 
-![Start Image](Items_Gif_002.gif)
+![Start Image](images/Items_Gif_002.gif)
 
-![Start Image](Items_Gif_003.gif)
+![Start Image](images/Items_Gif_003.gif)
 
-![Start Image](Items_Gif_004.gif)
+![Start Image](images/Items_Gif_004.gif)
 
 More here: [![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/TtK5d-jS_Us)
 
