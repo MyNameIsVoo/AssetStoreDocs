@@ -13,12 +13,14 @@ ___
 
 ___
 
- ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
+![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
 
 ![Start Image](images/CardImage_420x280.png)
 
 Find the asset on Unity [Asset Store](https://u3d.as/3v6d).
 If you need Factory Buildings you can find them here: [Asset Store](https://u3d.as/3uQX)
+
+[![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/TtK5d-jS_Us)
 
 # About
 
@@ -77,6 +79,18 @@ Themes of the items: future, production, factory, alien technologies, sci-fi, sc
 > This asset contains only models, textures, materials and sprites
 > Textures of size 1024x1024 need to be downloaded separately due to their large size. The download link can be found in the **Readme** file
 > The screenshots showing this asset show what you can achieve. All the screenshots showing were taken on URP
+
+![Start Image](Items_Gif_000.gif)
+
+![Start Image](Items_Gif_001.gif)
+
+![Start Image](Items_Gif_002.gif)
+
+![Start Image](Items_Gif_003.gif)
+
+![Start Image](Items_Gif_004.gif)
+
+More here: [![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/TtK5d-jS_Us)
 
 # Compatibility
 
