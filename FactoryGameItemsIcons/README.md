@@ -7,9 +7,9 @@ ___
 
 > Don't forget to leave feedback! It helps me a lot in development!
 
-![Start Image](images/Test_Gif_01.gif)
+![Start Image](images/Items_000.png)
 
-# Factory Game Buildings
+# Factory Game Items-Icons
 
 ___
 
@@ -17,7 +17,7 @@ ___
 
 ![Start Image](images/CardImage_420x280.png)
 
-Find the asset on Unity [Asset Store](https://u3d.as/3uQX).
+Find the asset on Unity [Asset Store](https://u3d.as/3v6d).
 
 # About
 
@@ -27,76 +27,55 @@ ___
 
 **About:**
 
-More than 55 buildings for the Strategy, Top-Down or similar genres. High-quality, low-poly models from 22 polygons to 9k polygons on the largest and most detailed model of the buildings. Suitable for mobile projects.
+More than 45 items with icons for the Strategy, Top-Down or similar genres. High-quality, low-poly models. Suitable for mobile projects.
 
-Themes of the buildings: future, production, factory, alien technologies, sci-fi, science
+Themes of the items: future, production, factory, alien technologies, sci-fi, science etc.
 
 **Features:**
-- 56 industry buildings
-- Each model has LOD1, which should activate at large distances
-- 4 textures of two sizes (512x512 and 2048x2048)
+- 46 industry items
+- 3-4 textures of two sizes (512x512 and 1024x1024)
 - Normal Map, AlbedoTransparency, Emission, MetallicSmoothness
-- Ready for animations and game
-- Icons
-- Top view icons
+- 115 Icons - empty and with texts
 
-![Start Image](images/Building_000.jpg)
+> 1024x1024 - is not included in the package in order to reduce its size. To use more detailed textures you will need to download them first, the link is given in the **Readme** file
 
-![Start Image](images/Building_001.jpg)
+![Start Image](images/Img_Item_000.jpg)
 
-![Start Image](images/Building_002.jpg)
+![Start Image](images/Img_Item_001.jpg)
 
-![Start Image](images/Building_003.jpg)
+![Start Image](images/Img_Item_002.jpg)
 
-![Start Image](images/Building_004.jpg)
+![Start Image](images/Img_Item_003.jpg)
 
-![Start Image](images/Building_005.jpg)
+![Start Image](images/Img_Item_004.jpg)
 
-![Start Image](images/Building_006.jpg)
+![Start Image](images/Img_Item_005.jpg)
 
-![Start Image](images/Building_007.jpg)
+![Start Image](images/Img_Item_006.jpg)
 
-![Start Image](images/Building_008.jpg)
+![Start Image](images/Img_Item_007.jpg)
 
-![Start Image](images/Building_009.jpg)
+![Start Image](images/Img_Item_008.jpg)
 
-![Start Image](images/Building_010.jpg)
+![Start Image](images/Img_Item_009.jpg)
 
-![Start Image](images/Building_011.jpg)
+![Start Image](images/Img_Item_010.jpg)
 
-![Start Image](images/Building_012.jpg)
+![Start Image](images/Img_Item_011.jpg)
 
-![Start Image](images/Building_013.jpg)
+![Start Image](images/Img_Item_012.jpg)
 
-![Start Image](images/Building_014.jpg)
+![Start Image](images/Img_Item_013.jpg)
 
-![Start Image](images/Building_015.jpg)
+![Start Image](images/Img_Item_014.jpg)
 
-![Start Image](images/Building_016.jpg)
+![Start Image](images/Img_Item_015.jpg)
 
-![Start Image](images/Building_017.jpg)
+![Start Image](images/Img_Item_016.jpg)
 
-![Start Image](images/Building_018.jpg)
-
-![Start Image](images/Building_019.jpg)
-
-![Start Image](images/Building_020.jpg)
-
-![Start Image](images/Building_021.jpg)
-
-![Start Image](images/Building_022.jpg)
-
-> This asset contains only models, textures, materials and sprites.
-> Textures of size 2048x2048 need to be downloaded separately due to their large size. The download link can be found in the **Readme** file
+> This asset contains only models, textures, materials and sprites
+> Textures of size 1024x1024 need to be downloaded separately due to their large size. The download link can be found in the **Readme** file
 > The screenshots showing this asset show what you can achieve. All the screenshots showing were taken on URP
-
-![Start Image](images/Buildings_Gif_05.gif)
-
-![Start Image](images/Gif_06.gif)
-
-![Start Image](images/TPP_Gif_05.gif)
-
-![Start Image](images/TPP_Gif_06.gif)
 
 # Compatibility
 
@@ -159,3 +138,5 @@ This is because it is impossible to ensure the package files are deleted after a
 - The package in question went on sale, or an upgrade discount was introduced, shortly after a full-price purchase was made.
 
 If you find you are in accordance with these conditions, please get in touch on the basis of your request.
+
+# Updates
