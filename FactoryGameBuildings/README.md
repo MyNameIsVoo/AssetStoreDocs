@@ -18,6 +18,7 @@ ___
 ![Start Image](images/CardImage_420x280.png)
 
 Find the asset on Unity [Asset Store](https://u3d.as/3uQX).
+If you need Factory Items you can find them here: [Asset Store](https://u3d.as/3v6d)
 
 # About
 
