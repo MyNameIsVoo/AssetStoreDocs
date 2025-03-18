@@ -18,8 +18,8 @@ ___
 ![Start Image](images/CardImage_420x280.png)
 
 Find the asset on Unity [Asset Store](https://u3d.as/3v6d).
-If you need the character weapons (or tools) you can find them here: [Factory Game Tools](https://u3d.as/3uU6)
-If you need Factory Buildings you can find them here: [Asset Store](https://u3d.as/3uQX)
+If you need the character weapons (or tools) you can find them here: [Factory Game Tools](https://u3d.as/3v8M)
+If you need Factory Buildings you can find them here: [Asset Store](https://u3d.as/3uU6)
 
 [![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/MY_MPNv6A0w)
 
