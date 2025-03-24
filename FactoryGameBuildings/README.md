@@ -1,3 +1,4 @@
+
 # Support
 
 ___
@@ -36,6 +37,7 @@ Themes of the buildings: future, production, factory, alien technologies, sci-fi
 
 **Features:**
 - 56 industry buildings
+- Animations (Idle, Working)
 - Each model has LOD1, which should activate at large distances
 - 4 textures of two sizes (512x512 and 2048x2048)
 - Normal Map, AlbedoTransparency, Emission, MetallicSmoothness
@@ -125,7 +127,7 @@ ___
 
 ___
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100004418195249) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/sam.eroch/) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-erochin-927a629b/) [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/VooChannel) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@voochannel7151)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100004418195249) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/sam.eroch/) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-erochin-927a629b/) [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/VooChannel) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@voochannel7151) [![Discord](https://img.shields.io/badge/Discord-%23FF0000.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.gg/d8Q7VEYk)
 
 E-mail: choco.16mail@mail.ru
 My other [ASSETS](https://assetstore.unity.com/publishers/18484)
@@ -137,6 +139,8 @@ ___
 If you find a bug or have any suggestions for improvement, please let us know: choco.16mail@mail.ru
 
 # Refund policy
+
+___
 
 If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.
 
@@ -162,3 +166,37 @@ This is because it is impossible to ensure the package files are deleted after a
 - The package in question went on sale, or an upgrade discount was introduced, shortly after a full-price purchase was made.
 
 If you find you are in accordance with these conditions, please get in touch on the basis of your request.
+
+# Updates
+
+___
+
+**v1.1.9**
+
+* Added Animations
+
+* Fixed LOD settings for the Center building
+
+* Adjusted MeshRenderer settings for buildings. Disabled Cast and Receive Shadows
+
+* Shadows parameters on small and hidden objects
+
+* Fixed LOD component for the Chemical Plant, HydrogenPowerPlant building
+
+* Chemical Plant fixed the material of some parts
+
+* Drone Station, Rescue Capsule - added glass material
+
+  
+
+**v1.0.1**
+
+* Updated Example scene - added show room
+
+* Fixed Steam Factory material
+
+  
+
+**v1.0**
+
+* First Release
