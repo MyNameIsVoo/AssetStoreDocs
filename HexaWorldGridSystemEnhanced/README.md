@@ -8,7 +8,7 @@ ___
 
 > Don't forget to leave feedback! It helps me a lot in development!
 
-![Start Image](images/Image_000.png)
+![Start Image](images/CardImage_420x280.png)
 
 # HexaWorld Grid System Enhanced
 
@@ -78,6 +78,15 @@ Not Supported render-pipelines:
 ___
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Android](https://img.shields.io/badge/Android-0078D6?style=for-the-badge&logo=android&logoColor=white) ![IOs](https://img.shields.io/badge/IOs-0078D6?style=for-the-badge&logo=ios&logoColor=white)
+
+# Before Run
+
+___
+
+![Start Image](images/BugFixing_Unity6_0.png)
+
+For Unity6 if you get such a bug after the first launch of the scene, then do the following:
+- in the camera of the world render, switch the BackgroundType parameter to Skybox
 
 # Contacts
 
