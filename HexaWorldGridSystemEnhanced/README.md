@@ -1,4 +1,5 @@
 
+
 # Support
 
 ___
@@ -87,6 +88,10 @@ ___
 
 For Unity6 if you get such a bug after the first launch of the scene, then do the following:
 - in the camera of the world render, switch the BackgroundType parameter to Skybox
+
+Also don't forget to add 2 new mask layers:
+- [6] AlwaysTop
+- [7] World
 
 # Contacts
 
