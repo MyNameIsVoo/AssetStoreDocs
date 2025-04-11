@@ -38,6 +38,9 @@ First persone clouds
 
 ![Start Image](images/ProceduralClouds_Gif_2.gif)
 
+
+> There may be some flickering in the editor. Does not affect the work and assembly of the project.
+
 ## Games
 
 ___
@@ -127,3 +130,14 @@ If you find you are in accordance with these conditions, please get in touch on 
 ___
 
 - [Unity Procedural Clouds](https://www.artstation.com/artwork/QrmOJl)
+
+# Updates
+
+**1.1**
+
+* Fixed a build assembly bug
+* Added the ability to set TargetFPS in the editor
+* Added camera change in the editor
+* Fixed a flickering bug in play mode
+* Added hints to fields
+* Increased cloud rendering performance
