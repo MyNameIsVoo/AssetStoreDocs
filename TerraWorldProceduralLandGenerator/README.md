@@ -20,16 +20,18 @@ ___
 
 ![Start Image](images/Screenshot_0.png)
 
-Find the asset on Unity [Asset Store](https://u3d.as/3wup).
+Find the asset on Unity [Asset Store](https://u3d.as/3wup) and [Demo here](https://drive.google.com/file/d/1mmsjS4yWLGBIFMOsZiICeQQ2FKt0sqT4/view?usp=sharing "https://drive.google.com/file/d/1mmsjS4yWLGBIFMOsZiICeQQ2FKt0sqT4/view?usp=sharing") 
 [HexaWorld Grid System Enhanced](https://assetstore.unity.com/packages/tools/modeling/hexaworld-grid-system-enhanced-316179)
 [URP Procedural Clouds](https://assetstore.unity.com/packages/vfx/shaders/urp-procedural-clouds-313530)
 [# URP Instanced Indirect Grass Renderer](https://assetstore.unity.com/packages/vfx/shaders/urp-instanced-indirect-grass-renderer-313429)
 
-[![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/-YXwMUE9N0Q)
+[![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/-YXwMUE9N0Q) and [![YouTube](https://img.shields.io/badge/Watch_Video-YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/qZiImcOj5p4)
 
 # About
 
 ___
+
+> Clouds, grass, game models (like units, ships) are not included in the asset!
 
 ![Start Image](images/CoverImage_1950x1300.png)
 
@@ -245,9 +247,42 @@ This is because it is impossible to ensure the package files are deleted after a
 
 If you find you are in accordance with these conditions, please get in touch on the basis of your request.
 
+# Integrations
+
+___
+
+## URP Instanced Indirect Grass Renderer
+
+You can easily integrate the [URP Instanced Indirect Grass Renderer](https://assetstore.unity.com/packages/vfx/shaders/urp-instanced-indirect-grass-renderer-313429 "https://assetstore.unity.com/packages/vfx/shaders/urp-instanced-indirect-grass-renderer-313429") into your project, just follow the short instructions.
+
+1) Import the [URP Instanced Indirect Grass Renderer](https://assetstore.unity.com/packages/vfx/shaders/urp-instanced-indirect-grass-renderer-313429 "https://assetstore.unity.com/packages/vfx/shaders/urp-instanced-indirect-grass-renderer-313429") from Package Manager
+1.1) Add to your scene the **GrassPreview** prefab
+2) After the Unity has updated, check the Scripting Define Symbols. You should have: **ENABLED_IIGR**. If it did not appear automatically, then add it yourself.
+3) Find **TerraWorld_Runtime_AD.asmblef** and in the *Use GUIDs* field add **IIGR_AD**, after which your errors should disappear.
+4) In the scene, select **Map Generator**. You should have a new section called **SCENE GRASS**. Check that all settings are correct.
+
+![Start Image](images/IIGR_0.png)
+
+5) Launch the game and you should see the following:
+
+![Start Image](images/IIGR_1.png)
+
+## URP Procedural Clouds
+
+You can easily integrate the [URP Procedural Clouds](https://assetstore.unity.com/packages/vfx/shaders/urp-procedural-clouds-313530") into your project, just follow the short instructions.
+
+1) Import the [URP Procedural Clouds](https://assetstore.unity.com/packages/vfx/shaders/urp-procedural-clouds-313530") from Package Manager
+2) Add ProceduralCloudsPrefab to your scene and attach it to camera:
+![Start Image](images/Clouds_0.png)
+3) Launch the game and you should see the following:
+![Start Image](images/Clouds_1.png)
+
 # Updates
 
 ___
+
+**1.0**
+- First release
 
 # References
 
