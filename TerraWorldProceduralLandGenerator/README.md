@@ -137,6 +137,14 @@ The asset also includes a simplified life cycle of vegetation. Plants will chang
 
 ![Start Image](images/04_ChunksWithProps.gif)
 
+**Resource Deposits**
+
+![Start Image](images/17_ResourceDeposite.png)
+
+![Start Image](images/18_ResourceDeposite.png)
+
+![Start Image](images/19_ResourceDeposite.png)
+
 # Games
 
 ## The Last World
@@ -201,6 +209,13 @@ Also don't forget to add 5 new mask layers:
 - [8] Outline - to draw the state when hovering over props in the scene
 - [9] AlwaysTop - for drawing the palette
 - [10] MapWater - optional
+
+And add 2 new tags:
+- Ground
+- Water
+
+Check the URP graphics settings, the **Render Pipeline Asset** field should be set to **UniversalRP-UltraQuality**
+*Edit/Project Settinsg/Quality/Render Pipeline Asset*
 
 # Contacts
 
